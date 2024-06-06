@@ -89,4 +89,4 @@ After training of the two approaches, we can see the accuracy of the hyperdrive 
 ![image](./img/6.8.PNG)
 
 ## Screen Recording
-The screen recording is uploaded to youtube: https://youtu.be/9lTCwMDG650
+The screen recording is uploaded to youtube: [https://youtu.be/9lTCwMDG650](https://youtu.be/KW25KyFWPkA)
