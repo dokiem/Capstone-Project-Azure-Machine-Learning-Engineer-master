@@ -80,7 +80,6 @@ The screenshot of the `RunDetails` widget as well as a screenshot of the best mo
 After training of the two approaches, we can see the accuracy of the hyperdrive model is better than the automl. Therefore, I registered and deployed for the best run of the hyperdrive model.
 
 ![image](./Images/6.5.png)
-![image](./Images/6.6.png)
 ![image](./Images/6.7.png)
 ![image](./Images/6.8.png)
 
