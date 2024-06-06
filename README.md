@@ -63,9 +63,6 @@ ps = RandomParameterSampling(
     }
 )
 ```
-
-We can improve it with more hyperparameters, other models, longer training, more data preprocessing, other sampling methods, other metrics ...
-
 ### Results
 The best run from Hyperdrive had accuracy is 0.811688 with C of 0.3 and max_iter of 100
 We can improve our model by some ways:
