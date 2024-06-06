@@ -11,7 +11,6 @@ https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 ![image](./Images/1.1.png)
-https://github.com/dokiem/Capstone-Project-Azure-Machine-Learning-Engineer-master/blob/main/Images/1.1.png
 
 ### Task
 
@@ -33,7 +32,7 @@ dataset = dataset.register(workspace=ws,
 I choosed a classclassification task with the target column `Outcome`, the param enable_early_stopping is true. 
 I also set experiment_timeout_minutes = 30, max_concurrent_iterations = 4, primary_metric = 'accuracy', n_cross_validations = 5 and 24 iterations (number of iteration to be performed to prepare the model) for automl settings. 
 
-![image](./img/1.2.PNG)
+![image](./Images/1.2.png)
 
 ### Results
 
@@ -44,10 +43,10 @@ We can improve our model by some ways:
 
 The screenshot of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters
 
-![image](./img/5.1.PNG)
-![image](./img/5.2.1.PNG)
-![image](./img/5.2.3.PNG)
-![image](./img/5.3.PNG)
+![image](./Images/5.1.png)
+![image](./Images/5.2.1.png)
+![image](./Images/5.2.3.png)
+![image](./Images/5.3.png)
 
 ## Hyperparameter Tuning
 
@@ -75,19 +74,19 @@ We can improve our model by some ways:
 - Increase max_total_runs
 
 The screenshot of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters
-![image](./img/6.1.PNG)
-![image](./img/6.3.PNG)
-![image](./img/6.4.PNG)
+![image](./Images/6.1.png)
+![image](./Images/6.3.png)
+![image](./Images/6.4.png)
 
 ## Model Deployment
 
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 After training of the two approaches, we can see the accuracy of the hyperdrive model is better than the automl. Therefore, I registered and deployed for the best run of the hyperdrive model.
 
-![image](./img/6.5.PNG)
-![image](./img/6.6.PNG)
-![image](./img/6.7.PNG)
-![image](./img/6.8.PNG)
+![image](./Images/6.5.png)
+![image](./Images/6.6.png)
+![image](./Images/6.7.png)
+![image](./Images/6.8.png)
 
 ## Screen Recording
 The screen recording is uploaded to youtube: [https://youtu.be/9lTCwMDG650](https://youtu.be/KW25KyFWPkA)
