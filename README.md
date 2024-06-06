@@ -10,7 +10,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
-![image](./Images/1.1.png)
+![image](./Images/1.2.png)
 
 ### Task
 
@@ -32,7 +32,7 @@ dataset = dataset.register(workspace=ws,
 I choosed a classclassification task with the target column `Outcome`, the param enable_early_stopping is true. 
 I also set experiment_timeout_minutes = 30, max_concurrent_iterations = 4, primary_metric = 'accuracy', n_cross_validations = 5 and 24 iterations (number of iteration to be performed to prepare the model) for automl settings. 
 
-![image](./Images/1.2.png)
+![image](./Images/1.1.png)
 
 ### Results
 
