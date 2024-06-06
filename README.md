@@ -77,7 +77,6 @@ The screenshot of the `RunDetails` widget as well as a screenshot of the best mo
 
 ## Model Deployment
 
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 After training of the two approaches, we can see the accuracy of the hyperdrive model is better than the automl. Therefore, I registered and deployed for the best run of the hyperdrive model.
 
 ![image](./Images/6.5.png)
