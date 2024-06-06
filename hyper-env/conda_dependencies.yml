@@ -1,0 +1,13 @@
+name: myenv
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8.2
+- scikit-learn
+- numpy
+- scipy
+- pandas
+- pip
+- pip:
+  - azureml-defaults
